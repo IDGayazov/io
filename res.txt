@@ -1,0 +1,10 @@
+public class Testing {
+    private static int count = 0;
+    private static void increment(){
+        count++;
+    };
+    private static void main(String[] args) {
+        increment();
+        System.out.println(count);
+    }
+}
